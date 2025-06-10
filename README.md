@@ -240,7 +240,7 @@ vTaskDelete( NULL );
 ```
  
 
-## Codigp
+## Codigo
 
 /*
 * ESP32 RTOS - Reloj Digital con Pulsadores y LEDs
@@ -252,6 +252,7 @@ vTaskDelete( NULL );
 * - Utiliza LEDs para indicar estados del reloj
 * - Implementa múltiples tareas concurrentes con RTOS
 */
+
 #include <Arduino.h>
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
